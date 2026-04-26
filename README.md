@@ -1,61 +1,95 @@
-﻿
-🌤️ Weather App (Tkinter + OpenWeather API)
+# 🌤️ Weather App (Tkinter + OpenWeather API)
 
-A simple and user-friendly Weather Application built using Python (Tkinter GUI) that fetches real-time weather data using the OpenWeather API.
+## 📖 Overview
 
-📌 Features
-🌍 Select city/state from dropdown
-🌡️ Displays temperature (in °C)
-☁️ Shows weather condition (e.g., Clouds, Rain)
-📝 Detailed weather description
-📊 Atmospheric pressure info
-🎨 Clean and minimal GUI using Tkinter
-🛠️ Tech Stack
-Python
-Tkinter (GUI)
-Requests (API calls)
-OpenWeather API
-📷 UI Preview
+A simple and user-friendly **Weather Application** built using **Python (Tkinter GUI)** that fetches real-time weather data using the **OpenWeather API**.
 
-(You can add a screenshot here later if you want)
+---
 
-🚀 How It Works
-User selects a city/state from dropdown.
-Clicks on "Show Details" button.
-App sends request to OpenWeather API.
-Weather data is fetched and displayed on screen.
-⚙️ Installation & Setup
-1. Clone the repository
+## ✨ Features
+
+* 🌍 Select city/state from dropdown
+* 🌡️ Displays temperature (in °C)
+* ☁️ Shows weather condition (e.g., Clouds, Rain)
+* 📝 Detailed weather description
+* 📊 Atmospheric pressure info
+* 🎨 Clean and minimal GUI using Tkinter
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Tkinter (GUI)
+* Requests (API calls)
+* OpenWeather API
+
+---
+
+## 🖼️ UI Preview
+
+(Add your screenshot here)
+
+---
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone the Repository
+
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
-2. Install dependencies
+
+### Step 2: Install Dependencies
+
 pip install requests
-3. Run the application
+
+### Step 3: Run the Application
+
 python app.py
-🔑 API Key Setup
+
+---
+
+## 🔑 API Key Setup
 
 This project uses OpenWeather API.
 
-Replace the API key in the code:
+Get your API key from:
+https://openweathermap.org/api
 
-appid=YOUR_API_KEY
+---
 
-Get your free API key from:
-👉 https://openweathermap.org/api
+## 🚀 How It Works
 
-⚠️ Note
-Temperature is converted from Kelvin → Celsius
-Some state names may not return accurate results (API works best with city names)
-📌 Improvements You Can Add
-🌐 Add search bar for custom city input
-📍 Auto-detect location
-🎨 Improve UI with themes
-📅 Add 5-day weather forecast
-🌡️ Add humidity & wind speed
-🤝 Contributing
+1. Select a city/state from dropdown
+2. Click "Show Details"
+3. App sends API request
+4. Weather data is displayed
 
-Feel free to fork this repo and improve it. Pull requests are welcome!
+---
 
-📄 License
+## ⚠️ Notes
+
+* Temperature is converted from Kelvin → Celsius
+* API works more accurately with city names than states
+
+---
+
+## 🔮 Future Improvements
+
+* Add custom city search
+* Auto-detect location
+* Improve UI design
+* Add 5-day forecast
+* Include humidity & wind speed
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and submit pull requests.
+
+---
+
+## 📄 License
 
 This project is open-source and free to use.
