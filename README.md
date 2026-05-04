@@ -26,9 +26,6 @@ A simple and user-friendly **Weather Application** built using **Python (Tkinter
 
 ---
 
-## 🖼️ UI Preview
-
-(Add your screenshot here)
 
 ---
 
